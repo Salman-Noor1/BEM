@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background: rgb(238, 238, 238);
+    font-family: 'Nunito', sans-serif;
+}
+.card {
+    margin: 0 25em;
+    border-radius: 3px;
+    background: rgb(169, 180, 207);
+}
+.card__img {
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+.card__details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.card__details__date--active {
+    padding: 5px;
+    font-weight: bold;
+}
+.card__details__heart {
+    padding: 5px;
+}
+.card__article {
+    margin: 10px 5px 10px 5px;
+}
+.card__last {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: rgb(168, 59, 168);
+}
+.card__last__link {
+    display: flex;
+    flex-direction: row;
+}
+.card__last__link__logo {
+    display: block;
+    height: 60px;
+    border-radius: 3px;
+    margin: 20px 5px 20px 5px;
+
+}
+.card__last__link__name {
+    margin-top: 0;
+    padding: 2px;
+}
+h4 {
+    font-size: large;
+    margin-bottom: 0;
+}
+h5 {
+    font-size: small;
+    margin-top: 7px;
+}
+.card__last__button {
+    margin: 40px 5px 20px 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.card__last__button:hover {
+    background-color: rgb(244, 198, 244);
+    animation: 5s ease-in;
+}
